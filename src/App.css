@@ -20,7 +20,10 @@ div {
   background-color: #181825;
 }
 
-/* li { */
-/*   list-style-type: none; */
-/*   padding: 0; */
-/* } */
+li {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

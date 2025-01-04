@@ -39,6 +39,7 @@ function App() {
         {todos.map((elem, index) => {
           return (
             <li key={index}>
+              <input type='checkbox' id={`todo-${index}`} />
               {elem}
               <button
                 onClick={() => {
